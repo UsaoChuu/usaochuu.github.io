@@ -158,7 +158,7 @@
                     <article class="post-wrap">
                         <header class="post-header">
                             <h1 class="post-title">
-                                关于
+                                Note
                             </h1>
                             
                                     <!--zh-->
@@ -167,24 +167,190 @@
                                         <a itemprop="author" rel="author" href="/">
                                             UsaoChuu
                                         </a>
-                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2019-01-25</a></span>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2020-03-05</a></span>
                                         <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
-                                    href="#">0.1
+                                    href="#">3.6
                                     &#x5206;&#x949F;</a></span>
-                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">26</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">936</a></span>
                                         
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://usaochuu.github.io/tag/CIW0EzA4Z/">学习笔记</a>
+                                
+                            </span>
+                                            
                                     </div>
                                     
                         </header>
                         <div class="post-content">
-                            <p>一个普通的大一的计科专业学生。</p>
-<p>希望往<strong>前端</strong>的方向发展！</p>
-<p>没了。</p>
+                            <h1 id="java程序设计">Java程序设计</h1>
+<h3 id="java语言与面向对象设计">Java语言与面向对象设计</h3>
+<ul>
+<li><strong>特点</strong>：平台无关、安全稳定、支持多线程</li>
+<li><strong>丰富的类库</strong>：package、程序包、I/O包、GUI</li>
+<li><strong>C++--</strong>： 自动内存管理、数组类型长度固定、无需头文件、不用多重继承、纯面向对象……</li>
+<li><strong>Java虚拟机</strong>（Java Virtual Machine）
+<ul>
+<li>在计算机上由软件或硬件模拟的计算机，读取并处理经过编译的字节码class文件</li>
+<li>Java虚拟机规范定义了指令集、寄存器集、类文件结构、堆栈、内存区域、垃圾收集堆……</li>
+<li>JRE = JVM + API（The Java Runtime Environment）
+<ul>
+<li>保证Java的安全性和跨平台</li>
+<li><strong>加载代码</strong>：由class loader完成</li>
+<li><strong>校验代码</strong>：由bytecode verifier完成</li>
+<li><strong>执行代码</strong>：由runtime interpreter完成</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Java自动垃圾回收技术（Garbage Collection）</strong>
+<ul>
+<li>系统级线程跟踪存储空间的分配情况</li>
+<li>在JVM空闲的时候，检查并且释放可被释放的存储器空间</li>
+<li>程序员无需也无法精确控制和干预该回收过程</li>
+</ul>
+</li>
+<li>JDK = JRE + Tools</li>
+<li><strong>对象</strong>：可标识的存储区域</li>
+<li><strong>类</strong>：具有共同属性和行为的对象集合
+<ul>
+<li><strong>属性</strong>：变量（字段 field）</li>
+<li><strong>行为</strong>：函数（方法 method）</li>
+<li>类是对象的抽象（<strong>模板</strong>），对象是类的<strong>实例</strong></li>
+</ul>
+</li>
+<li>面向对象的三大<strong>特征</strong>
+<ul>
+<li><strong>封装性</strong>
+<ul>
+<li>模块化：将属性和行为封装在类中，程序定义很多类</li>
+<li>信息隐蔽：将类的细节部分隐藏起来，用户只通过受保护的接口访问某个类</li>
+</ul>
+</li>
+<li><strong>继承性</strong>
+<ul>
+<li>父类和子类共享数据和方法</li>
+<li><strong>优点</strong>：更好地进行<strong>抽象与分类</strong>、增加代码<strong>复用率</strong>、提高可维护性</li>
+</ul>
+</li>
+<li><strong>多态性</strong>
+<ul>
+<li>不同的对象受到同一个消息（调用方法）可以产生完全不同的结果</li>
+<li>实现的细节由接受的对象自己决定</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>面向对象设计思想的要点
+<ul>
+<li>认为客观世界都由各种对象组成</li>
+<li>程序的分析和设计
+<ul>
+<li>有哪些对象、类</li>
+<li>每个类之间有哪些属性、方法</li>
+<li>类之间的关系（继承、关联等）</li>
+<li>对象之间发送消息（调用方法）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="简单的java程序">简单的Java程序</h3>
+<ul>
+<li>Application，Applet程序的区别
+<ul>
+<li>结构和运行环境不同</li>
+<li>前者是独立的程序，需要执行器（调用虚拟机）来实行</li>
+<li>后者是嵌在专门的HTML网页中的非独立程序
+<ul>
+<li>由专门的appletViewer来运行</li>
+<li>或者由Web浏览器（调用Java虚拟机）来运行</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Application程序</li>
+</ul>
+<pre><code class="language-java">//	helloworld.java
+//	class是主体 public的类名与文件同名 main的写法是固定的
+public class HelloWorldApp{
+	public static void main(String args[]){
+		System.out.println(&quot;Hello World!&quot;);
+        //	System.out.print/println/printf
+	}
+}
+</code></pre>
+<ul>
+<li>Applet程序</li>
+</ul>
+<pre><code class="language-java">//	helloworldapplet.java
+import java.awt.*;	// 导入已经定义好的类
+import java.applet.*;
+import javax.swing.*；
+//	extends JApplet表示继承
+public class HelloWorldApplet extends Japplet{
+	public void paint(Graphics g){
+		g.drawString (&quot;Hello world!&quot;,20,20）;
+	}
+}
+</code></pre>
+<pre><code class="language-html">&lt;!-	helloworld.html &gt;
+&lt;!- .class文件是java编译生成的class文件&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt; An Applet&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;applet code = &quot;HelloWorldApplet.class&quot;
+                width = 200 height = 40 background = white&gt;
+        &lt;/applet&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<ul>
+<li>Java程序的基本构成</li>
+</ul>
+<pre><code class="language-java">//	HelloDate.java
+package usaochuu.usao.niubi;
+//	package表明了这个包在什么路径下面,可以有0-1句
+import java.util.*;
+//	导入其他类的类库
+public class HelloDate {
+/*	一个文件只能有一个public类
+	类 = 类头 + 类体
+    类成员 = 字段 + 方法
+    方法 = 方法头 + 方法体
+*/  
+}
+</code></pre>
+<ul>
+<li>程序的编辑、编译和运行
+<ul>
+<li>程序的编辑：文件名要与public class的类名一致</li>
+<li>程序编译：转换为字节码（*.class）
+<ul>
+<li>*.class文件中包含java虚拟机的指令</li>
+<li>编译可以使用JDK工具javac.exe</li>
+</ul>
+</li>
+<li>程序的运行：执行*.class文件中指令的过程</li>
+</ul>
+</li>
+</ul>
 
                         </div>
                         
                             <div class="post-toc">
-                                
+                                <ul class="markdownIt-TOC">
+<li><a href="#java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1">Java程序设计</a><br>
+*
+<ul>
+<li><a href="#java%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1">Java语言与面向对象设计</a></li>
+<li><a href="#%E7%AE%80%E5%8D%95%E7%9A%84java%E7%A8%8B%E5%BA%8F">简单的Java程序</a></li>
+</ul>
+</li>
+</ul>
+
                             </div>
                             
                                 
@@ -198,7 +364,7 @@
 
                                                 <p class="copyright-item">
                                                     <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
-                                                    <span><a href="https://usaochuu.github.io/post/about/">https://usaochuu.github.io/post/about/</a></span>
+                                                    <span><a href="https://usaochuu.github.io/post/note/">https://usaochuu.github.io/post/note/</a></span>
                                                 </p>
 
                                                 <p class="copyright-item">
@@ -213,9 +379,9 @@
                                                                     <span style="margin-right:15px">
                         <i class="post-share"></i>
                         <span>&#x5206;&#x4EAB;:</span>
-                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://usaochuu.github.io/post/about/"><i class="fa fa-qrcode"></i></a>
-                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://usaochuu.github.io/post/about/&sharesource=qzone&title=关于&pics=https://usaochuu.github.io/images/avatar.png?v=1583388194285&summary="><i class="fa fa-qq"></i></a>
-                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://usaochuu.github.io/post/about/&sharesource=weibo&title=关于 + " - " + &pic="https://usaochuu.github.io/images/avatar.png?v=1583388194285 "><i class="fa fa-weibo "></i></a>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://usaochuu.github.io/post/note/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://usaochuu.github.io/post/note/&sharesource=qzone&title=Note&pics=https://usaochuu.github.io/images/avatar.png?v=1583388194285&summary="><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://usaochuu.github.io/post/note/&sharesource=weibo&title=Note + " - " + &pic="https://usaochuu.github.io/images/avatar.png?v=1583388194285 "><i class="fa fa-weibo "></i></a>
 
                                                                     </span>
                                                                     
@@ -225,6 +391,12 @@
                                                                                     <span>&#x6807;&#x7B7E;:</span>
                                                                                     <span class="tag ">
                         
+                        
+                        <a href="https://usaochuu.github.io/tag/CIW0EzA4Z/">#
+                    学习笔记
+                        </a>
+                        
+                            
                                 </span>
                                                                                 </div>
                                                                                 <div>
