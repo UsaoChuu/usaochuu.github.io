@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://usaochuu.github.io</id>
     <title>UsaoChuu</title>
-    <updated>2020-03-05T06:03:21.347Z</updated>
+    <updated>2020-03-05T06:08:47.824Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://usaochuu.github.io"/>
     <link rel="self" href="https://usaochuu.github.io/atom.xml"/>
@@ -17,6 +17,9 @@
         </link>
         <updated>2020-03-05T06:02:11.000Z</updated>
         <content type="html"><![CDATA[<h1 id="java程序设计">Java程序设计</h1>
+<blockquote>
+<p>来自中国大学mooc：<a href = "https://www.icourse163.org/course/PKU-1001941004"> Java程序设计</a></p>
+</blockquote>
 <h3 id="java语言与面向对象设计">Java语言与面向对象设计</h3>
 <ul>
 <li><strong>特点</strong>：平台无关、安全稳定、支持多线程</li>
