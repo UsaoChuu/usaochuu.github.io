@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://usaochuu.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-03-05T04:07:49.824Z</updated>
+    <title>UsaoChuu</title>
+    <updated>2020-03-05T04:52:32.410Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://usaochuu.github.io"/>
     <link rel="self" href="https://usaochuu.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>?</subtitle>
     <logo>https://usaochuu.github.io/images/avatar.png</logo>
     <icon>https://usaochuu.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, UsaoChuu</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://usaochuu.github.io/post/hello-gridea/</id>
