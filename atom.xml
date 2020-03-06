@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://usaochuu.github.io</id>
     <title>UsaoChuu</title>
-    <updated>2020-03-05T13:15:01.247Z</updated>
+    <updated>2020-03-06T07:24:52.011Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://usaochuu.github.io"/>
     <link rel="self" href="https://usaochuu.github.io/atom.xml"/>
@@ -11,12 +11,21 @@
     <icon>https://usaochuu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, UsaoChuu</rights>
     <entry>
-        <title type="html"><![CDATA[Note]]></title>
+        <title type="html"><![CDATA[【杂记】听歌]]></title>
+        <id>https://usaochuu.github.io/post/za-ji-ting-ge/</id>
+        <link href="https://usaochuu.github.io/post/za-ji-ting-ge/">
+        </link>
+        <updated>2020-03-06T07:21:37.000Z</updated>
+        <content type="html"><![CDATA[<p>试一试wyy的iframe能不能搞进来</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=35498229&auto=1&height=430"></iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【笔记】Java程序设计]]></title>
         <id>https://usaochuu.github.io/post/note/</id>
         <link href="https://usaochuu.github.io/post/note/">
         </link>
         <updated>2020-03-05T06:02:11.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="java程序设计">Java程序设计</h1>
+        <content type="html"><![CDATA[<h1 id="java程序设计中国大学mooc">Java程序设计(中国大学MOOC)</h1>
 <blockquote>
 <p>来自中国大学mooc：<a href = "https://www.icourse163.org/course/PKU-1001941004"> Java程序设计</a></p>
 </blockquote>
