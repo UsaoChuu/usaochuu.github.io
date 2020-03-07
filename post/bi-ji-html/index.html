@@ -158,7 +158,7 @@
                     <article class="post-wrap">
                         <header class="post-header">
                             <h1 class="post-title">
-                                【杂记】听歌
+                                【笔记】HTML
                             </h1>
                             
                                     <!--zh-->
@@ -167,22 +167,275 @@
                                         <a itemprop="author" rel="author" href="/">
                                             UsaoChuu
                                         </a>
-                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2020-03-06</a></span>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2020-03-07</a></span>
                                         <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
-                                    href="#">0.0
+                                    href="#">6.6
                                     &#x5206;&#x949F;</a></span>
-                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">11</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">1533</a></span>
                                         
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://usaochuu.github.io/tag/W8c3C21Oh/">前端</a>
+                                
+                                <a href="https://usaochuu.github.io/tag/CIW0EzA4Z/">学习笔记</a>
+                                
+                            </span>
+                                            
                                     </div>
                                     
                         </header>
                         <div class="post-content">
-                            <p>试一试wyy的iframe能不能搞进来</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=35498229&auto=1&height=430"></iframe>
+                            <blockquote>
+<p>来自慕课网：<a href = "https://www.imooc.com/learn/9">HTML+CSS基础教程</a><br>
+HTML参考手册(W3school) ：<a href = "https://www.w3school.com.cn/tags/index.asp">HTML 参考手册</a></p>
+</blockquote>
+<h4 id="html基本介绍">HTML基本介绍</h4>
+<h5 id="web标准的构成">Web标准的构成</h5>
+<p>结构（网页元素，HTML5）+表现（外观样式，CSS3）+行为（交互，JavaScript）</p>
+<h5 id="html标签">HTML标签</h5>
+<p><strong>标签关系</strong>：包含、并列关系</p>
+<h6 id="基本结构标签"><strong>基本结构标签</strong></h6>
+<p><code>&lt;html&gt;</code>：HTML标签（根标签），容纳所有网页元素的标签</p>
+<p><code>&lt;head&gt;</code>：文档的头部（必须设置<code>&lt;title&gt;</code>），是所有头部元素的容器</p>
+<p><code>&lt;title&gt;</code>：文档的标题</p>
+<p><code>&lt;body&gt;</code>：文档的主体，页面内容基本都是包含在内的</p>
+<pre><code class="language-html">&lt;!--My First Page --&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;My First Page&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        GG4U
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h6 id="head"><code>&lt;head&gt;</code></h6>
+<ul>
+<li>文档的头部描述了文档的各种属性和信息，包括文档的标题等</li>
+<li>绝大多数文档头部包含的数据都不会真正作为内容显示给读者</li>
+<li>可用于head部分的标签</li>
+</ul>
+<pre><code class="language-html">&lt;head&gt;
+    &lt;title&gt;这里显示的是网页的标题（导航栏上）&lt;/title&gt;
+    &lt;meta&gt;
+    &lt;link&gt;
+    &lt;style&gt;...&lt;/style&gt;
+    &lt;script&gt;...&lt;/script&gt;
+&lt;/head&gt;
+</code></pre>
+<h4 id="认识标签">认识标签</h4>
+<h5 id="语义化">语义化</h5>
+<ul>
+<li>明白每个标签的用途（在什么情况下使用此标签合理）</li>
+<li>比如，网页上的文章的<strong>标题</strong>就可以用标题标签，网页上的各个栏目的<strong>栏目名称</strong>也可以使用标题标签</li>
+<li>文章中内容的段落就得放在<strong>段落标签</strong>中，在文章中有想强调的文本，就可以使用 em 标签表示强调等等</li>
+<li><strong>优点</strong>：容易被搜索引擎收录、更容易让屏幕阅读器读出网页内容</li>
+</ul>
+<h5 id="常用标签1">常用标签（1）</h5>
+<ul>
+<li>
+<p><code>&lt;p&gt;</code>(paragraph - 段落标签)</p>
+</li>
+<li>
+<p><code>&lt;hx&gt;</code>（标题标签）</p>
+<ul>
+<li><code>&lt;h1&gt;</code>标签因为比较重要，因此经常用于网页标题</li>
+<li>其他各级的标签耶可以使用其他不同层级的标题标签</li>
+</ul>
+</li>
+<li>
+<p><code>&lt;strong&gt;</code> <code>&lt;em&gt;</code>：强调标签，加粗/斜体</p>
+</li>
+<li>
+<p><code>&lt;span&gt;</code>：无语义，用于<strong>设置单独的样式</strong></p>
+</li>
+<li>
+<p><code>&lt;q&gt;</code>：短文本引用（quotation）</p>
+</li>
+<li>
+<p><code>&lt;blockquote&gt;</code>：长文本引用</p>
+</li>
+<li>
+<p><code>&lt;br /&gt;</code>：空标签，换行，无结束标签</p>
+</li>
+<li>
+<p><code>&amp;nbsp;</code>：空格</p>
+</li>
+<li>
+<p><code>&lt;hr /&gt;</code>：添加水平横线用标签</p>
+</li>
+<li>
+<p><code>&lt;address&gt;</code>：地址标签（电子邮件地址、签名或者文档的作者身份）</p>
+</li>
+<li>
+<p><code>&lt;code&gt;</code>：加入一行代码</p>
+</li>
+<li>
+<p><code>&lt;pre&gt;</code>：预格式化的文本，被包围在 pre 元素中的文本通常会保留空格和换行符，常用于加入多行代码</p>
+</li>
+</ul>
+<h5 id="常用标签2">常用标签（2）</h5>
+<ul>
+<li><code>&lt;ul&gt;</code>，<code>&lt;li&gt;</code>：无序列表标签</li>
+<li><code>&lt;ol&gt;</code>：有序标签</li>
+<li><code>&lt;div&gt;</code>：划分板块
+<ul>
+<li>将页面上相互关联的元素（逻辑部分）分隔开</li>
+<li><code>&lt;div id = &quot;Uoc&quot;&gt;</code>：给独立的板块进行命名</li>
+</ul>
+</li>
+<li><code>&lt;table&gt;</code>：表格
+<ul>
+<li>创建表格的四个元素：<code>tbody</code>、<code>tr</code>、<code>th</code>、<code>td</code></li>
+<li><code>&lt;tr&gt;</code>：表格的一行，有几对<code>&lt;tr&gt;</code>表格就有几行</li>
+<li><code>&lt;td&gt;</code>：表格的一个单元格</li>
+<li><code>&lt;th&gt;</code>：表头</li>
+<li>未添加CSS样式之前，浏览器显示是没有表格线的</li>
+<li><code>&lt;caption&gt;</code>：为表格添加标题</li>
+<li><code>&lt;table summary = &quot;?&quot;&gt;</code>：为表格添加摘要</li>
+</ul>
+</li>
+</ul>
+<h5 id="常用标签3">常用标签（3）</h5>
+<ul>
+<li><code>&lt;a&gt;</code>：链接到另一个界面
+<ul>
+<li><code>&lt;a href = &quot;https://usaochuu.github.io&quot; target = &quot;_blank&quot;&gt;</code>：链接到<code>UsaoChuu的博客</code>(新建窗口打开)</li>
+<li><code>&lt;a href = &quot;mailto: xxx@xxx.com ? cc = xx@xx.com &amp; bcc = xxx@xxx.cn &amp; subject = 主题 &amp; bdoy = 邮件内容&quot;&gt;</code>
+<ul>
+<li>发送邮件到<code>rbchuu@gmail.com</code></li>
+<li><code>cc</code>指的是抄送的地址</li>
+<li><code>bcc</code>指的是密件抄送的地址</li>
+<li>多个收件人、抄送、密件抄送人用<code>;</code>隔开</li>
+<li><code>subject</code>是邮件的主题</li>
+<li><code>body</code>是邮件的内容</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>&lt;img&gt;</code>：图片
+<ul>
+<li><code>&lt;img src = “???.gif&quot;&gt;</code>：标识图像的位置(网络位置/磁盘)</li>
+<li><code>alt = “???”</code>：指定图像的描述性文本</li>
+<li><code>title = “???”</code>：在图像可见时，提供描述（鼠标滑过图片的时候显示的文字）</li>
+</ul>
+</li>
+</ul>
+<h4 id="表单标签">表单标签</h4>
+<ul>
+<li><code>&lt;form&gt;</code>
+<ul>
+<li><code>method</code>：数据传输的方式（<code>get</code>/<code>post</code>）</li>
+<li><code>action</code>：浏览者输入的数据被传送到的地方，比如一个php界面（<code>save.php</code>）</li>
+<li>所有表单控件应该放到<code>&lt;form&gt;</code>标签内</li>
+</ul>
+</li>
+<li><code>&lt;input type = &quot;text/password/submit/reset&quot; name = &quot;?&quot; value = &quot;文本&quot; /&gt;</code>
+<ul>
+<li><code>type</code>：文本/密码输入框/提交数据/重置</li>
+<li><code>name</code>：为文本框命名</li>
+<li><code>value</code>：为文本输入框设置默认值（一般起到提示作用）</li>
+</ul>
+</li>
+<li><code>&lt;textarea&gt;</code>：标签是成对出现的
+<ul>
+<li><code>cols</code>：多行输入域的列数</li>
+<li><code>rows</code>：多行输入域的行数</li>
+<li><code>&lt;textarea&gt;</code>之间可以输入默认值</li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-html">&lt;form  method=&quot;post&quot; action=&quot;save.php&quot;&gt;
+        &lt;label&gt;!&lt;/label&gt;
+        &lt;textarea cols=&quot;50&quot; rows=&quot;10&quot; &gt;...&lt;/textarea&gt;
+&lt;/form&gt;
+</code></pre>
+<ul>
+<li>
+<p><code>&lt;input type = &quot;radio/checkbox&quot; value = &quot;?&quot; name = &quot;名称&quot; checked = &quot;checked&quot;&gt;</code>：单选/复选框</p>
+<ul>
+<li><code>type</code>：<code>radio</code>是单选框，<code>checkbox</code>是复选框</li>
+<li><code>value</code>：提交到服务器的值</li>
+<li><code>name</code>：为控件命名，有利于后台程序使用</li>
+<li><code>checked</code>：值为<code>checked</code>的时候被选中</li>
+<li>同一组的单选按钮，<code>name</code>的取值一定要一致</li>
+</ul>
+</li>
+<li>
+<p><code>&lt;select&gt;</code>：下拉列表框</p>
+<ul>
+<li><code>&lt;option value = &quot;?&quot;&gt;</code>：<code>?</code>是向服务器提交的值</li>
+<li><code>selected = “selected”</code>：表示被默认选中</li>
+<li><code>&lt;option&gt; ??? &lt;/option&gt;</code>：<code>???</code>是显示的值</li>
+<li><code>multiple = “multiple”</code>：使用下拉列表框进行多选</li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-html">&lt;label&gt;爱好:&lt;/label&gt;
+    &lt;select multiple = &quot;multiple&quot;&gt;
+      &lt;option value=&quot;看书&quot;&gt;看书&lt;/option&gt;
+      &lt;option value=&quot;旅游&quot;&gt;旅游&lt;/option&gt;
+      &lt;option value=&quot;运动&quot;&gt;运动&lt;/option&gt;
+      &lt;option value=&quot;购物&quot;&gt;购物&lt;/option&gt;
+&lt;/select&gt;
+</code></pre>
+<ul>
+<li><code>&lt;label for = &quot;控件id名称&quot;&gt;</code>
+<ul>
+<li>为鼠标用户改进可用性</li>
+<li><code>for</code>属性中的值一定要与相关控件的<code>id</code>属性值一致</li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-html">&lt;form&gt;
+  &lt;label for=&quot;male&quot;&gt;男&lt;/label&gt;
+  &lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;male&quot; /&gt;
+  &lt;br /&gt;
+  &lt;label for=&quot;female&quot;&gt;女&lt;/label&gt;
+  &lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;female&quot; /&gt;
+  &lt;label for=&quot;email&quot;&gt;输入你的邮箱地址&lt;/label&gt;
+  &lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;Enter email&quot;&gt;
+&lt;/form&gt;
+</code></pre>
+
                         </div>
                         
                             <div class="post-toc">
-                                
+                                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#html%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D">HTML基本介绍</a>
+<ul>
+<li><a href="#web%E6%A0%87%E5%87%86%E7%9A%84%E6%9E%84%E6%88%90">Web标准的构成</a></li>
+<li><a href="#html%E6%A0%87%E7%AD%BE">HTML标签</a>
+<ul>
+<li><a href="#%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E6%A0%87%E7%AD%BE"><strong>基本结构标签</strong></a></li>
+<li><a href="#head"><code>&lt;head&gt;</code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E8%AE%A4%E8%AF%86%E6%A0%87%E7%AD%BE">认识标签</a>
+<ul>
+<li><a href="#%E8%AF%AD%E4%B9%89%E5%8C%96">语义化</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE1">常用标签（1）</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE2">常用标签（2）</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE3">常用标签（3）</a></li>
+</ul>
+</li>
+<li><a href="#%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE">表单标签</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
                             </div>
                             
                                 
@@ -196,7 +449,7 @@
 
                                                 <p class="copyright-item">
                                                     <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
-                                                    <span><a href="https://usaochuu.github.io/post/za-ji-ting-ge/">https://usaochuu.github.io/post/za-ji-ting-ge/</a></span>
+                                                    <span><a href="https://usaochuu.github.io/post/bi-ji-html/">https://usaochuu.github.io/post/bi-ji-html/</a></span>
                                                 </p>
 
                                                 <p class="copyright-item">
@@ -211,9 +464,9 @@
                                                                     <span style="margin-right:15px">
                         <i class="post-share"></i>
                         <span>&#x5206;&#x4EAB;:</span>
-                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://usaochuu.github.io/post/za-ji-ting-ge/"><i class="fa fa-qrcode"></i></a>
-                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://usaochuu.github.io/post/za-ji-ting-ge/&sharesource=qzone&title=【杂记】听歌&pics=https://usaochuu.github.io/images/avatar.png?v=1583591403077&summary="><i class="fa fa-qq"></i></a>
-                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://usaochuu.github.io/post/za-ji-ting-ge/&sharesource=weibo&title=【杂记】听歌 + " - " + &pic="https://usaochuu.github.io/images/avatar.png?v=1583591403077 "><i class="fa fa-weibo "></i></a>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://usaochuu.github.io/post/bi-ji-html/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://usaochuu.github.io/post/bi-ji-html/&sharesource=qzone&title=【笔记】HTML&pics=https://usaochuu.github.io/images/avatar.png?v=1583591403077&summary="><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://usaochuu.github.io/post/bi-ji-html/&sharesource=weibo&title=【笔记】HTML + " - " + &pic="https://usaochuu.github.io/images/avatar.png?v=1583591403077 "><i class="fa fa-weibo "></i></a>
 
                                                                     </span>
                                                                     
@@ -223,6 +476,16 @@
                                                                                     <span>&#x6807;&#x7B7E;:</span>
                                                                                     <span class="tag ">
                         
+                        
+                        <a href="https://usaochuu.github.io/tag/W8c3C21Oh/">#
+                    前端
+                        </a>
+                        
+                        <a href="https://usaochuu.github.io/tag/CIW0EzA4Z/">#
+                    学习笔记
+                        </a>
+                        
+                            
                                 </span>
                                                                                 </div>
                                                                                 <div>
@@ -237,13 +500,9 @@
                                                                                 <!---->
                                                                                 <section class="post-nav">
                                                                                     
-                                                                                        <a class="prev" rel="prev" href="https://usaochuu.github.io/post/bi-ji-html/">
-                                                                                            【笔记】HTML
-                                                                                        </a>
-                                                                                        
                                                                                             
-                                                                                                <a class="next" rel="next" href="https://usaochuu.github.io/post/note/">
-                                                                                                    【笔记】Java程序设计
+                                                                                                <a class="next" rel="next" href="https://usaochuu.github.io/post/za-ji-ting-ge/">
+                                                                                                    【杂记】听歌
                                                                                                 </a>
                                                                                                 
                                                                                 </section>
