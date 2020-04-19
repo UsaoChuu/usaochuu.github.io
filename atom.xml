@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://usaochuu.github.io</id>
     <title>UsaoChuu</title>
-    <updated>2020-04-18T02:16:31.176Z</updated>
+    <updated>2020-04-19T12:58:51.214Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://usaochuu.github.io"/>
     <link rel="self" href="https://usaochuu.github.io/atom.xml"/>
@@ -10,6 +10,60 @@
     <logo>https://usaochuu.github.io/images/avatar.png</logo>
     <icon>https://usaochuu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, UsaoChuu</rights>
+    <entry>
+        <title type="html"><![CDATA[【听歌】Shandy Kubota - Shandy Bass 3]]></title>
+        <id>https://usaochuu.github.io/post/ting-ge-shandy-kubota-shandy-bass-3/</id>
+        <link href="https://usaochuu.github.io/post/ting-ge-shandy-kubota-shandy-bass-3/">
+        </link>
+        <updated>2020-03-23T00:15:32.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="usao-shandy-bass-3">USAO - Shandy Bass 3</h1>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=35498229&auto=1&height=430"></iframe>
+<h4 id="专辑介绍">专辑介绍</h4>
+<blockquote>
+<p>「浄化せよ」</p>
+<p>Shandy Kubota第三作。原点へ回帰し魂の浄化を求め更に高い次元へと導く。</p>
+<p>新規書き下ろし曲や再録、かっこいいRemixもあるよ！</p>
+</blockquote>
+<h4 id="cast">Cast</h4>
+<blockquote>
+<h5 id="produce-compose"><strong>Produce &amp; Compose</strong></h5>
+<p>UOM Records(Shandy Kubota &amp; USAO)</p>
+<h5 id="remix"><strong>Remix</strong></h5>
+<p>Ryunosuke Kudo(Unitone), aran(Unitone), C-Show(Lick Dom Records), Kasa(wavforme)</p>
+<h5 id="illustration">Illustration</h5>
+<p>千年凛（なないろらびす）</p>
+<h5 id="design">Design</h5>
+<p>NC Empire</p>
+</blockquote>
+<h4 id="曲目">曲目</h4>
+<blockquote>
+<h5 id="01-shandy-kubota-rene-0456">01 Shandy Kubota - Rene [04:56]</h5>
+<h5 id="02-usao-shandy-kubota-the-moment-0632">02 USAO &amp; Shandy Kubota - The Moment [06:32]</h5>
+<h5 id="03-shandy-kubota-dijkstra-0436">03 Shandy Kubota - Dijkstra [04:36]</h5>
+<h5 id="04-usao-fucking-highshandy-kubota-remix-0519">04 USAO - Fucking High(Shandy Kubota Remix) [05:19]</h5>
+<h5 id="05-shandy-kubota-osnp-0602">05 Shandy Kubota - OSNP [06:02]</h5>
+<h5 id="06-shandy-kubota-one-day-0540">06 Shandy Kubota - One Day [05:40]</h5>
+<h5 id="07-shandy-kubota-spin-out-0516">07 Shandy Kubota - Spin Out [05:16]</h5>
+<h5 id="08-shandy-kubota-sakura-fubuki-0415">08 Shandy Kubota - Sakura Fubuki [04:15]</h5>
+<h5 id="09-shandy-kubota-ama-oto-0600">09 Shandy Kubota - Ama-oto [06:00]</h5>
+<h5 id="10-shandy-kubota-osnpryunosuke-kudo-remix-0336">10 Shandy Kubota - OSNP(Ryunosuke Kudo Remix) [03:36]</h5>
+<h5 id="11-shandy-kubota-spin-outaran-remix-0415">11 Shandy Kubota -  Spin Out(aran Remix) [04:15]</h5>
+<h5 id="12-usao-shandy-kubota-the-momentc-show-kasa-remix-0500">12 USAO &amp; Shandy Kubota - The Moment(C-Show &amp; Kasa Remix) [05:00]</h5>
+</blockquote>
+<h4 id="我买了">我买了！</h4>
+<p><img src="https://usaochuu.github.io/post-images/1584922733977.jpg" alt="" loading="lazy"><br>
+<img src="https://usaochuu.github.io/post-images/1584922751892.jpg" alt="" loading="lazy"></p>
+<h4 id="点评">点评（？）</h4>
+<p>Shandy kubota（也就是四字母兔子头先生）的第三专。<br>
+我写不出点评的话 我只会说牛逼！（</p>
+<h4 id="引申推荐">引申推荐</h4>
+<p><strong>1.Shandy Kubota - Empty Room</strong></p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=35498229&auto=1&height=430"></iframe>
+**2.USAO & Shandy Kubota - Our Story**
+<iframe src="//player.bilibili.com/player.html?aid=93960268&cid=160421926&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+两个都是收在Irregular Nation专里面的，别的曲师写的也挺有意思比如老二写的那个（
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【笔记】HTML]]></title>
         <id>https://usaochuu.github.io/post/bi-ji-html/</id>
